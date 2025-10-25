@@ -1,59 +1,82 @@
-# Angular20Classic
+# Node.js Typescript Rest API with MySQL example
+Building Node.js Typescript Express and MySQL: CRUD Rest API example.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+| Methods	| Urls	| Actions
+| -------- | ------- | ------- |
+| GET | api/tutorials | get all Tutorials
+| GET | api/tutorials/:id | get Tutorial by id
+| POST | api/tutorials | add new Tutorial
+| PUT | api/tutorials/:id | update Tutorial by id
+| DELETE | api/tutorials/:id | remove Tutorial by id
 
-## Development server
+For more detail, please visit:
+> [Node.js Typescript with MySQL example](https://www.bezkoder.com/node-js-typescript-mysql/)
 
-To start a local development server, run:
+> [Express Typescript example](https://www.bezkoder.com/express-typescript-example/)
 
-```bash
-ng serve
+> [TypeScript ORM with MySQL example](https://www.bezkoder.com/typescript-orm-mysql/)
+
+## Project setup
+```
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+### Run
+```
+npm run start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Front-end that works well with this Back-end
+> [Axios Client](https://www.bezkoder.com/axios-request/)
 
-```bash
-ng generate --help
-```
+> [Angular 8](https://www.bezkoder.com/angular-crud-app/) / [Angular 10](https://www.bezkoder.com/angular-10-crud-app/) / [Angular 11](https://www.bezkoder.com/angular-11-crud-app/) / [Angular 12](https://www.bezkoder.com/angular-12-crud-app/) / [Angular 13](https://www.bezkoder.com/angular-13-crud-example/) / [Angular 14](https://www.bezkoder.com/angular-14-crud-example/) / [Angular 15](https://www.bezkoder.com/angular-15-crud-example/) / [Angular 16 Client](https://www.bezkoder.com/angular-16-crud-example/)
 
-## Building
+> [Vue 2 Client](https://www.bezkoder.com/vue-typescript-crud/) / [Vue 3 Client](https://www.bezkoder.com/vue-3-typescript-axios/)
 
-To build the project run:
+> [React Client](https://www.bezkoder.com/react-typescript-api-call/)
 
-```bash
-ng build
-```
+## More Practice
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+> [Node.js Express File Upload Rest API example](https://www.bezkoder.com/node-js-express-file-upload/)
 
-## Running unit tests
+> [Server side Pagination in Node.js with Sequelize and MySQL](https://www.bezkoder.com/node-js-sequelize-pagination-mysql/)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+> [Deploying/Hosting Node.js app on Heroku with MySQL database](https://www.bezkoder.com/deploy-node-js-app-heroku-cleardb-mysql/)
 
-```bash
-ng test
-```
+Security:
+> [Node.js Express: JWT example | Token Based Authentication & Authorization](https://www.bezkoder.com/node-js-jwt-authentication-mysql/)
 
-## Running end-to-end tests
+Associations:
+> [Sequelize Associations: One-to-Many Relationship example](https://www.bezkoder.com/sequelize-associate-one-to-many/)
 
-For end-to-end (e2e) testing, run:
+> [Sequelize Associations: Many-to-Many Relationship example](https://www.bezkoder.com/sequelize-associate-many-to-many/)
 
-```bash
-ng e2e
-```
+Fullstack:
+> [Vue.js + Node.js + Express + MySQL example](https://www.bezkoder.com/vue-js-node-js-express-mysql-crud-example/)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+> [Vue.js + Node.js + Express + MongoDB example](https://www.bezkoder.com/vue-node-express-mongodb-mevn-crud/)
 
-## Additional Resources
+> [Angular 8 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-node-express-mysql/)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> [Angular 10 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-10-node-js-express-mysql/)
+
+> [Angular 11 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-11-node-js-express-mysql/)
+
+> [Angular 12 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-12-node-js-express-mysql/)
+
+> [Angular 13 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-13-node-js-express-mysql/)
+
+> [Angular 14 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-14-node-js-express-mysql/)
+
+> [Angular 15 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-15-node-js-express-mysql/)
+
+> [Angular 16 + Node.js + Express + MySQL example](https://www.bezkoder.com/angular-16-node-js-express-mysql/)
+
+> [React + Node.js + Express + MySQL example](https://www.bezkoder.com/react-node-express-mysql/)
+
+Integration (run back-end & front-end on same server/port)
+> [Integrate React with Node.js Restful Services](https://www.bezkoder.com/integrate-react-express-same-server-port/)
+
+> [Integrate Angular with Node.js Restful Services](https://www.bezkoder.com/integrate-angular-10-node-js/)
+
+> [Integrate Vue with Node.js Restful Services](https://www.bezkoder.com/serve-vue-app-express/)
